@@ -1,5 +1,11 @@
 [class*="col-"] {
     border: 1px solid black;
+
+}
+
+body {
+    text-align: center;
+
 }
 
 .row.header {
@@ -8,4 +14,14 @@
 
 header {
     background-color: #2C3E50;
+}
+
+.hero {
+    height: 500px;
+    background-color: #1ABC9C;
+}
+
+.portfolio {
+    height: 800px;
+
 }
