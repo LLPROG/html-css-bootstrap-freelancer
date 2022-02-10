@@ -1,0 +1,11 @@
+[class*="col-"] {
+    border: 1px solid black;
+}
+
+.row.header {
+    height: 100px;
+}
+
+header {
+    background-color: #2C3E50;
+}
