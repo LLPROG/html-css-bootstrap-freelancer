@@ -1,40 +1,59 @@
-[class*="col-"] {
+[class*="col"] {
     border: 1px solid black;
-
 }
 
-body {
+/* body {
     text-align: center;
-
-}
-
-.row.header {
-    height: 100px;
-}
+} */
 
 header {
     background-color: #2C3E50;
 }
 
+header i {
+    border: 1px solid white;
+}
+
 .hero {
-    height: 500px;
     background-color: #1ABC9C;
 }
 
-.portfolio {
-    height: 800px;
-
+.hero img {
+    width: 200px;
 }
+
+.fa-star {
+    display: inline-block;
+}
+
+.hero span,
+.about span {
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    margin: 3px;
+    display: inline-block;
+}
+
+.portfolio span,
+.contact span {
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    margin: 3px;
+    display: inline-block;
+}
+
+
+
+
+
 
 .about {
     background-color: #1ABC9C;
-    height: 500px;
 }
 
-.contact {
-    height: 500px;
-
-}
+.contact {}
 
 footer {
     background-color: #3A546D;
