@@ -45,15 +45,18 @@ header i {
 }
 
 
-
-
-
-
 .about {
     background-color: #1ABC9C;
 }
 
-.contact {}
+.contact button {
+    background-color: #1ABC9C;
+    color: white;
+}
+
+
+
+
 
 footer {
     background-color: #3A546D;
