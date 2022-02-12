@@ -1,6 +1,6 @@
-[class*="col"] {
+/* [class*="col"] {
     border: 1px solid black;
-}
+} */
 
 /* body {
     text-align: center;
@@ -24,6 +24,7 @@ header i {
 
 .fa-star {
     display: inline-block;
+    padding-top: 1rem;
 }
 
 .hero span,
@@ -54,10 +55,16 @@ header i {
     color: white;
 }
 
-
-
-
-
 footer {
     background-color: #3A546D;
+}
+
+footer i {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+
+.copy {
+    background-color: #202b36;
 }
