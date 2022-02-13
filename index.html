@@ -18,13 +18,16 @@
 
     <!-- header -->
 
-    <header class="py-4">
+    <header class="py-4 fixed-top">
 
         <div class="container">
 
             <div class="row text-uppercase">
+
                 <div class="col-8 col-sm-5 fw-bold fs-5">
-                    Start Bootstrap
+                    <a class="text-decoration-none text-light" href="#">
+                        Start Bootstrap
+                    </a>
                 </div>
 
                 <div class="col text-end"> 
@@ -34,10 +37,10 @@
                    </div>
 
                    <nav class="d-none d-sm-block">
-                       <ul class="list-inline mb-0 fw-bold">
-                           <li class="list-inline-item align-middle">portfolio</li>
-                           <li class="list-inline-item align-middle">about</li>
-                           <li class="list-inline-item align-middle">contact</li>
+                       <ul class="list-inline mb-0 fw-bold ">
+                           <li class="list-inline-item align-middle"><a class="py-2 text-decoration-none" href="#!">portfolio</a></li>
+                           <li class="list-inline-item align-middle"><a class="py-2 text-decoration-none" href="#!">about</a></li>
+                           <li class="list-inline-item align-middle"><a class="py-2 text-decoration-none" href="#!">contact</a></li>
                        </ul>
                    </nav>
 
@@ -49,11 +52,11 @@
     </header>
 
     <!--main-->
-    <main>
+    <main class="pt-5">
 
         <!-- hero -->
 
-        <section class="container-fluid hero py-4">
+        <section class="container-fluid hero py-5">
 
             <div class="row text-uppercase  text-center">
                 <div class="col-12">
@@ -229,13 +232,19 @@
 
                 <p class="text-uppercase mb-1 mt-3">Around the web</p>
 
-                <i class="rounded-circle p-2 border border-white fa-brands fa-facebook-f"></i>
+                <button class="btn px-3 py-3 bg-transparent text-light border-white rounded-circle"><i class="fa-brands fa-facebook-f"></i></button>
+                <button class="btn px-3 py-3 bg-transparent text-light border-white rounded-circle"><i class="fa-brands fa-google-plus-g"></i></button>
+                <button class="btn px-3 py-3 bg-transparent text-light border-white rounded-circle"><i class="fa-brands fa-twitter"></i></button>
+                <button class="btn px-3 py-3 bg-transparent text-light border-white rounded-circle"><i class="fa-brands fa-linkedin-in"></i></button>
 
-                <i class="rounded-circle p-2 border border-white fa-brands fa-google-plus-g"></i>
 
-                <i class="rounded-circle p-2 border border-white fa-brands fa-twitter"></i>
+                
 
-                <i class="rounded-circle p-2 border border-white fa-brands fa-linkedin-in"></i>
+                
+
+                
+
+                
 
 
             </div>
@@ -258,6 +267,7 @@
         </div>
 
     </footer>
+ 
     
 </body>
 </html>

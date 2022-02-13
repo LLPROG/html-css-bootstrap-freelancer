@@ -59,12 +59,78 @@ footer {
     background-color: #3A546D;
 }
 
+footer button {
+    position: relative;
+}
+
+footer button:hover {
+    filter: invert(3);
+}
+
+footer button:active {
+    filter: opacity(1.5);
+}
+
 footer i {
-    width: 35px;
-    height: 35px;
     display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
 }
 
 .copy {
     background-color: #202b36;
+}
+
+header li a {
+    color: white;
+    display: inline-block;
+}
+
+
+header a:hover {
+    color: #1ABC9C;
+}
+
+.portfolio .card {
+    position: relative;
+    z-index: 997;
+}
+
+.portfolio .card::before {
+    content: "+";
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 999;
+    color: white;
+    font-size: 12rem;
+    display: none;
+
+}
+
+.portfolio .card::after {
+    content: "";
+    width: 98%;
+    height: 94%;
+    position: absolute;
+    top: 8px;
+    left: 3.5px;
+    background-color: #1ABC9C;
+    z-index: 998;
+    border-radius: 5px;
+    opacity: 0.5;
+    display: none;
+}
+
+.portfolio .card:hover::after {
+    display: block;
+}
+
+.portfolio .card:hover::before {
+    display: block;
 }
