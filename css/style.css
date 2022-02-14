@@ -110,7 +110,6 @@ header a:hover {
     color: white;
     font-size: 12rem;
     display: none;
-
 }
 
 .portfolio .card::after {
